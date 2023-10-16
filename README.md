@@ -7,8 +7,6 @@
   <a href="#learning-objectives">Learning Objectives</a>
 </p>
 
-> Please provide a description of your workshop.
-
 - **Who is this for**: Anyone preparing to take the GitHub Advanced Security Certification Exam
 - **What you'll learn**: This workshop focuses on the features and configuration options that are tested on the certification exam
 - **What you'll build**: You'll gain hands-on experience enabling and customizing GHAS features for a few repositories as an organization administrator
