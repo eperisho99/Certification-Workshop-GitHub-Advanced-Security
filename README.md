@@ -21,9 +21,9 @@ In this workshop, you will:
 
 ## :mega: Prerequisites
 Before joining the workshop, there are a few items that you will need to complete and prepare for:
-- Complete the [GitHub Advanced Security learning path](https://learn.microsoft.com/en-us/collections/rqymc6yw8q5rey) (~5.5 hours)
+- Complete the [GitHub Advanced Security Learning Path](https://learn.microsoft.com/en-us/collections/rqymc6yw8q5rey) (~5.5 hours)
 - Create a free account on [github.com](https://github.com/)
 
 ## :books: Resources
 - [GitHub Advanced Security Certification Study Guide](https://assets.ctfassets.net/wfutmusr1t3h/4iRpJF5obPIrRlZ4FKFFSp/634d6db6b68ee2e2faaa2058c294b1fa/github-advanced-security-exam-preparation-study-guide.pdf)
-- [GitHub Advanced Security learning path](https://learn.microsoft.com/en-us/collections/rqymc6yw8q5rey)
+- [GitHub Advanced Security Learning Path](https://learn.microsoft.com/en-us/collections/rqymc6yw8q5rey)
