@@ -70,9 +70,44 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 8. Uncomment `Line 63` - `# queries: security-extended,security-and-quality` and remove the `security-extended,` portion to customize the analysis to use the out-of-the-box query suite: `security-and-quality`
 9. Click commit changes to make the commit to the `main` branch
 10. Navigate to the file `Application.java` in the repo and click the pencil widget to edit the file
-11. Add a comment to the top of the file to trigger an instance of the analysis
+11. Add a comment to the top of the file and then click commit changes to the `main` branch to trigger an instance of the analysis
 12. Navigate to the **Security** tab --> **Code scanning** to look at the new alerts that were found once the analysis completes
-13. Click into the `Query built from user-controlled sources` alert to view its information
+13. Click into the `Query built from user-controlled sources` alert to view its information and recommendations for fixes
 14. 🎉Congratulations!🎉 you detected the vulnerabilites in the application using code scanning setup with CodeQL and a customized configuration 🚀
 
 # Module 5 - Administration
+## Part 1 - Setup a Security Policy
+1. Navigate to the `ghas-bootcamp-java` repository
+2. Navigate to the **Security** tab
+3. Under **Reporting**, click on **Policy**
+4. Click **Start setup** to generate the `SECURITY.md` file
+5. Note the default sections containing information about supported versions of your project and how to report a vulnerability
+5. Click commit changes to make the commit to the `main` branch
+6. Click back to the main page of the repository
+7. Click on the **Security Policy** link under the **About** section to see how users of the repository can easily find the security policy
+8. 🎉Congratulations!🎉 you created a security policy for the repository 🚀
+
+## Part 2 - Fill out a security advisory
+1. Navigate to the `ghas-bootcamp-java` repository
+2. Navigate to the **Security** tab
+3. Under **Reporting**, click on **Advisories**
+4. Click **New draft security advisory**
+5. Fill out the following fields:
+  * Title
+  * Description
+  * Ecosystem
+  * Package name
+  * Affected versions
+  * Patched versions
+  * Severity
+6. Click **Create draft security advisory**
+7. Notice there is now a button that repository admins have access to: **Request CVE**
+8. 🎉Congratulations!🎉 you started the process to create a security advisory for the repository 🚀
+
+## Part 3 - Investigate Organization Level Settings
+1. Navigate to the `ghas-bootcamp-<date>-<handle>` organization page --> **Settings** --> **Actions** --> **General**
+2. Scroll down to the **Workflow permissions** section
+3. Notice the two options for the `GITHUB_TOKEN` permissions in workflows
+4. Note that you can select the default permissions for the `GITHUB_TOKEN` to be more restrictive
+5. Note that under the more restrictive option, some workflow files would require to specify additional permissions, for example, the code scanning workflow would need `security-events: write` enabled for the `GITHUB_TOKEN`
+6. 🎉Congratulations!🎉 you have learned about workflow least required access control when using `GITHUB_TOKEN`s 🚀
