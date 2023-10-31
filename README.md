@@ -20,6 +20,7 @@
 Before joining the workshop, there are a few items that you will need to complete and prepare for:
 - Complete the [GitHub Advanced Security Learning Path](https://learn.microsoft.com/en-us/collections/rqymc6yw8q5rey) (~5.5 hours)
 - Create a free account on [github.com](https://github.com/)
+  - Note: This account **_cannot_** be from a `GitHub Enterprise Server` environment, nor a `GitHub Enterprise Cloud Enterprise Managed Users` environment
 
 ## Learning Objectives
 
